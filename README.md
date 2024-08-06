@@ -4,14 +4,14 @@ This sample-code demonstrates how to build an event-driven knowledge graph with 
 and Amazon Neptune.
 
 Start by deploying the architecture with CDK (see instructions below) then run through the steps in the sample Jupyter 
-notebook by navigating to:
-* navigate to the Sagemaker console 
-* expand the "Applications and IDEs" section on the left hand side. 
-* Click notebook instances 
-* Find the notebook deployed by the CDK. It should start with `workbenchgraphnotebookinstance`. 
+notebook by:
+* navigating to the Sagemaker console 
+* expanding the "Applications and IDEs" section on the left hand side. 
+* Clicking notebook instances 
+* Finding the notebook deployed by the CDK. It should start with `workbenchgraphnotebookinstance`. 
 If you don't see any, check to ensure you are in the correct region and the CDK has finished deploying.
-* Click open JupyterLab
-* Run through `build-an-event-driven-knowledge-graph-with-machine-learning.ipynb`
+* Clicking open JupyterLab
+* Running through `build-an-event-driven-knowledge-graph-with-machine-learning.ipynb`
 
 ## Sample code notes
 The sample code; software libraries; command line tools; proofs of concept; templates; or other related technology (including any of the foregoing that are provided by our personnel) is provided to you as AWS Content under the AWS Customer Agreement, or the relevant written agreement between you and AWS (whichever applies). You should not use this AWS Content in your production accounts, or on production or other critical data. You are responsible for testing, securing, and optimizing the AWS Content, such as sample code, as appropriate for production grade use based on your specific quality control practices and standards. Deploying AWS Content may incur AWS charges for creating or using AWS chargeable resources.”
@@ -44,9 +44,9 @@ cdk deploy --all
 Important: this application uses various AWS services and there are costs associated with these services after the Free Tier usage - please see the AWS Pricing page for details.
 
 For example, services created by this sample which incur a standing charge include:
-* [Neptune serverless](https://aws.amazon.com/neptune/pricing/)
-* [Kinesis Data streams (on demand mode)](https://aws.amazon.com/kinesis/data-streams/pricing/)
-* [SageMaker endpoints](https://aws.amazon.com/sagemaker/pricing/)
+* [Amazon Neptune Serverless](https://aws.amazon.com/neptune/pricing/)
+* [Kinesis Data Streams (on demand mode)](https://aws.amazon.com/kinesis/data-streams/pricing/)
+* [Amazon SageMaker endpoints](https://aws.amazon.com/sagemaker/pricing/)
 
 Delete resources created by the Jupyter notebooks by using the 'clean-up' section.
 
