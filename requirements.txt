@@ -1,0 +1,5 @@
+aws-cdk-lib==2.148.0
+constructs>=10.0.0,<11.0.0
+aws-cdk.aws_neptune_alpha
+aws-cdk.aws-lambda_python_alpha
+aws-cdk.aws_sagemaker_alpha
