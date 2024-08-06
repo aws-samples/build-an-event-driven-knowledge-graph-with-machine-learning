@@ -58,8 +58,8 @@ class DomainState(Construct):
             tracing_enabled=True,
             logs=sfn.LogOptions(
                 destination=log_dest,
-                level=sfn.LogLevel.ALL,
-                include_execution_data=True
+                level=sfn.LogLevel.ERROR,
+                include_execution_data=False
             )
         )
         self.state = state
